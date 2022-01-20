@@ -10,6 +10,9 @@ namespace little_interfaces
 
 
             cowokTinggi.CeritakanDiriAnda();
+
+            Console.WriteLine($"Cowok tinggi ini punya {cowokTinggi.HalLucu}");
+            cowokTinggi.Bunyi();
         }
     }
 }

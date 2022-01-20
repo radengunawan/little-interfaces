@@ -10,7 +10,7 @@ namespace little_interfaces
         /* Nggak perlu keyword public atau abstract inside the class.
          Reason: it makes every method public and abstract 
          */
-
+        string HalLucu { get; }
 
 
     }
