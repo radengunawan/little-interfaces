@@ -9,6 +9,13 @@ namespace little_interfaces
         public int Tinggi;
         public string Nama;
 
+        //constructor custom
+        public CowokTinggi (string Name, int tall)
+        {
+            this.Nama = Name;
+            this.Tinggi = tall;
+        }
+
         public void CeritakanDiriAnda()
         {
             Console.WriteLine($"My name are {this.Nama}, my height is {this.Tinggi} inches");
